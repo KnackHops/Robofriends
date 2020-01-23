@@ -4,20 +4,20 @@ import './index.css';
 import Card from './Cards';
 import { profile } from './Profile';
 import * as serviceWorker from './serviceWorker';
-import 'tachyon';
+import 'tachyons';
 
 ReactDOM.render(
     <div>
-        <Card name={profile[0].Name} email={profile[0].Email} id={profile[0].Id}/>
-        <Card name={profile[1].Name} email={profile[1].Email} id={profile[1].Id}/>
-        <Card name={profile[2].Name} email={profile[2].Email} id={profile[2].Id}/>
-        <Card name={profile[3].Name} email={profile[3].Email} id={profile[3].Id}/>
-        <Card name={profile[4].Name} email={profile[4].Email} id={profile[4].Id}/>
-        <Card name={profile[5].Name} email={profile[5].Email} id={profile[5].Id}/>
-        <Card name={profile[6].Name} email={profile[6].Email} id={profile[6].Id}/>
-        <Card name={profile[7].Name} email={profile[7].Email} id={profile[7].Id}/>
-        <Card name={profile[8].Name} email={profile[8].Email} id={profile[8].Id}/>
-        <Card name={profile[9].Name} email={profile[9].Email} id={profile[9].Id}/>
+        <Card name={profile[0].name} email={profile[0].email} id={profile[0].id}/>
+        <Card name={profile[1].name} email={profile[1].email} id={profile[1].id}/>
+        <Card name={profile[2].name} email={profile[2].email} id={profile[2].id}/>
+        <Card name={profile[3].name} email={profile[3].email} id={profile[3].id}/>
+        <Card name={profile[4].name} email={profile[4].email} id={profile[4].id}/>
+        <Card name={profile[5].name} email={profile[5].email} id={profile[5].id}/>
+        <Card name={profile[6].name} email={profile[6].email} id={profile[6].id}/>
+        <Card name={profile[7].name} email={profile[7].email} id={profile[7].id}/>
+        <Card name={profile[8].name} email={profile[8].email} id={profile[8].id}/>
+        <Card name={profile[9].name} email={profile[9].email} id={profile[9].id}/>
     </div>
     , document.getElementById('root'));
 
