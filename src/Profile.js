@@ -1,52 +1,62 @@
 export const profile = [
     {
-        Name: `Aldrian Telan`,
-        Email: `Alcapwnd@gmail.com`,
-        Id: `1`
+        name: `Aldrian Telan`,
+        email: `Alcapwnd@gmail.com`,
+        id: `1`,
+        username: `Alcapwnd`
     },
     {
-        Name: `Jeffrey Domingo`,
-        Email: `JSantos@gmail.com`,
-        Id: `2`
+        name: `Jeffrey Domingo`,
+        email: `JSantos@gmail.com`,
+        id: `2`,
+        username: `JSantos`
     },
     {
-        Name: `Regine Angelo Cafirma`,
-        Email: `Eardrum@gmail.com`,
-        Id: `3`
+        name: `Regine Angelo Cafirma`,
+        email: `Eardrum@gmail.com`,
+        id: `3`,
+        username: `Eardrum`
     },
     {
-        Name: `Nimrod Melegrito`,
-        Email: `Peanut@gmail.com`,
-        Id: `4`
+        name: `Nimrod Melegrito`,
+        email: `Peanut@gmail.com`,
+        id: `4`,
+        username: `Peanut`
     },
     {
-        Name: `Ian Harvey Miranda`,
-        Email: `Hardogs@gmail.com`,
-        Id: `5`
+        name: `Ian Harvey Miranda`,
+        email: `Hardogs@gmail.com`,
+        id: `5`,
+        username: `Hardogs`
     },
     {
-        Name: `Rommel John Clave`,
-        Email: `Daddyyow@gmail.com`,
-        Id: `6`
+        name: `Rommel John Clave`,
+        email: `Daddyyow@gmail.com`,
+        id: `6`,
+        username: `Daddyyow`
     },
     {
-        Name: `Bryle Elducal`,
-        Email: `Duck@gmail.com`,
-        Id: `7`
+        name: `Bryle Elducal`,
+        email: `Duck@gmail.com`,
+        id: `7`,
+        username: `Duck`
     },
     {
-        Name: `Kevin Talosa`,
-        Email: `Buduy@gmail.com`,
-        Id: `8`
+        name: `Kevin Talosa`,
+        email: `Buduy@gmail.com`,
+        id: `8`,
+        username: `Buduy`
     },
     {
-        Name: `Jherimie Agub`,
-        Email: `Bass@gmail.com`,
-        Id: `9`
+        name: `Jherimie Agub`,
+        email: `Bass@gmail.com`,
+        id: `9`,
+        username: `Bass`
     },
     {
-        Name: `Eldridge Janvan Layugan`,
-        Email: `Sirmamiyo@gmail.com`,
-        Id: `10`
+        name: `Eldridge Janvan Layugan`,
+        email: `Sirmamiyo@gmail.com`,
+        id: `10`,
+        username: `Sirmamiyo`
     }
 ]
