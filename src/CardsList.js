@@ -5,7 +5,7 @@ const CardsList = ({ profile }) => {
     return (
         <div>
             {
-                profile.map((user,id) => {
+                profile.map((user) => {
                     return (
                         <Cards 
                         key={user.id}
