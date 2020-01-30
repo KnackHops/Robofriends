@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'BTSE + PS2 FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BTSE + PS2 FONT'), url('btseps2.woff') format('woff');
+}
+
+ .title {
+        font-family: 'BTSE + PS2 FONT';
+        font-size: 4em;
+        font-weight: 200em;
+        text-shadow: 2px 2px white;
+        color: black;
+}
