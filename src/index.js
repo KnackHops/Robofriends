@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import { createLogger } from 'redux-logger';
+import thunkMiddleware from 'redux-thunk';
 import { searchProfile } from './reducers';
 import './index.css';
 import App from './containers/App';
@@ -11,7 +12,7 @@ import 'tachyons';
 
 const logger = createLogger();
 
-const store = createStore(searchProfile, applyMiddleware(logger));
+const store = createStore(searchProfile, applyMiddleware(thunkMiddleware,logger));
 
 ReactDOM.render(
 <Provider store={store}><App /></Provider>, document.getElementById('root'));
